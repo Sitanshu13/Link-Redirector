@@ -1,2 +1,76 @@
-# Link-Redirector
-You can use this python program to get access to many sites just by typing in the name of the site
+import webbrowser
+print("I can redirect you to the following sites:- ")
+print("Google")
+print("Instagram")
+print("Facebook")
+print("Pinterest")
+print("Discord")
+print("Youtube")
+print("Udemy")
+print("Ai playground by CampK12")
+print("Amazon")
+print("Ebay")
+print("Flipkart")
+print("Yahoo")
+print("Bing")
+print(" ")
+usage = input("Do you want to use this program? ")
+if(usage == "yes"):
+    site_name = input("Which site are you interested in using? ")
+    if(site_name == "google"):
+        webbrowser.open("https://Google.com")
+    elif(site_name == "Google"):
+        webbrowser.open("https://Google.com")
+    elif(site_name == "Instagram"):
+        webbrowser.open("https://www.instagram.com")
+    elif(site_name == "instagram"):
+        webbrowser.open("https://www.instagram.com")
+    elif(site_name == "Facebook"):
+        webbrowser.open("https://www.facebook.com")
+    elif(site_name == "facebook"):
+        webbrowser.open("https://www.facebook.com")
+    elif(site_name == "Pinterest"):
+        webbrowser.open("https://www.pinterest.com/")
+    elif(site_name == "pinterest"):
+        webbrowser.open("https://www.pinterest.com/")
+    elif(site_name == "Discord"):
+        webbrowser.open("https://www.discord.com/")
+    elif(site_name == "discord"):
+        webbrowser.open("https://www.discord.com/")
+    elif(site_name == "Youtube"):
+        webbrowser.open("https://www.youtube.com/")
+    elif(site_name == "youtube"):
+        webbrowser.open("https://www.youtube.com/")
+    elif(site_name == "Udemy"):
+        webbrowser.open("https://www.udemy.com/")
+    elif(site_name == "udemy"):
+        webbrowser.open("https://www.udemy.com/")
+    elif(site_name == "Ai playground"):
+        webbrowser.open("https://theaiplayground.com/")
+    elif(site_name == "Ai playground by CampK12"):
+        webbrowser.open("https://theaiplayground.com/")
+    elif(site_name == "Amazon"):
+        webbrowser.open("https://Amazon.com/")
+    elif(site_name == "amazon"):
+        webbrowser.open("https://Amazon.com/")
+    elif(site_name == "ebay"):
+        webbrowser.open("https://Ebay.com/")
+    elif(site_name == "Ebay"):
+        webbrowser.open("https://Ebay.com/")
+    elif(site_name == "Flipkart"):
+        webbrowser.open("https://Flipkart.com/")
+    elif(site_name == "flipkart"):
+        webbrowser.open("https://Flipkart.com/")
+    elif(site_name == "Yahoo"):
+        webbrowser.open("https://Yahoo.com/")
+    elif(site_name == "yahoo"):
+        webbrowser.open("https://Yahoo.com/")
+    elif(site_name == "Bing"):
+        webbrowser.open("https://Bing.com/")
+    elif(site_name == "bing"):
+        webbrowser.open("https://Bing.com/")
+elif(usage == "no"):
+    print("Ok then")
+    print("Bye")
+
+
